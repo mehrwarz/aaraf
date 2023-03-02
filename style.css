@@ -1,0 +1,27 @@
+/*
+Theme Name: AARAF
+Theme URI:
+Author: Sayed Emran Mehrwarz
+Author URI: 
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 6.1
+Requires PHP: 8.0
+Text-domain: arrafTheme
+*/
+
+.carousel-slide {
+    width: 25020px;
+    left: 0px;
+    display: block;
+    transform: translate3d(-1251px, 0px, 0px);
+    transform-origin: 1876.5px center;
+    perspective-origin: 1876.5px center;
+    transition: all 0ms ease 0s;
+    background-image: linear-gradient(15deg, #505050, #686eb8);
+}
+
+.wp-block-separator {
+    opacity: 0.5;
+    color: aliceblue;
+}
