@@ -12,16 +12,52 @@ Text-domain: arrafTheme
 
 .carousel-slide {
     width: 25020px;
-    left: 0px;
+    left: 0;
     display: block;
-    transform: translate3d(-1251px, 0px, 0px);
+    transform: translate3d(-1251px, 0, 0);
     transform-origin: 1876.5px center;
     perspective-origin: 1876.5px center;
-    transition: all 0ms ease 0s;
+    transition: all 0s 0s ease;
     background-image: linear-gradient(15deg, #505050, #686eb8);
 }
 
-.wp-block-separator {
-    opacity: 0.5;
-    color: aliceblue;
+
+#header .navbar a {
+    font-weight: 800;
+    position: relative;
+}
+
+#header .phone{ 
+    transform: translate(10px, -50%);
+    padding: 0px;
+    text-align: center;
+}
+#header .phone p, #header .phone a {
+    font-weight: 800;
+    color: #777;
+    line-height: 1;
+}
+#header .phone i {
+    margin-right: 10px;
+}
+
+#page {
+    padding: 100px 0;
+  }
+
+#page .wp-block-column:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+.phone{
+    margin-top: auto;
+}
+.phone a{ 
+    font-weight: 800;
+    text-decoration: none;
+}
+
+#topMenu {
+    width: fit-content;
+    max-width: fit-content;
 }

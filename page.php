@@ -2,7 +2,7 @@
 
 
 
-<section id="about">
+<section id="page">
         <div class="container">
 
             <div class="section-header">

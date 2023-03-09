@@ -11,15 +11,11 @@
                     <div class="blog-post blog-large wow fadeInLeft animated" data-wow-duration="300ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 300ms; animation-delay: 0ms; animation-name: fadeInLeft;">
                     
                     <?php
-                    if ( have_posts() ) :; while ( have_posts() ) : the_post(); ?>
+                    if ( have_posts() ) :; while ( have_posts() ) : the_post(); 
 
+                    
+                    ?>
 		<h2></h2>
-
-		
-
-
-
-
                     <article>
                             <header class="entry-header">
                                 <div class="entry-thumbnail">
@@ -36,8 +32,8 @@
                             </div>
 
                             <footer class="entry-meta">
-                                <span class="entry-author"><i class="fa fa-pencil"></i> <a href="#"><?=get_author_name();?></a></span>
-                                <span class="entry-category"><i class="fa fa-folder-o"></i> <a href="#">Tutorial</a></span>
+                                <span class="entry-author"><i class="fa fa-pencil"></i> <a href="#"><?=get_the_author_meta('display_name');?></a></span>
+                                <span class="entry-category"><i class="fa fa-folder-o"></i> <a href="#"><?=get_the_category()?></a></span>
                                 <span class="entry-comments"><i class="fa fa-comments-o"></i> <a href="#">15</a></span>
                             </footer>
                         </article>
